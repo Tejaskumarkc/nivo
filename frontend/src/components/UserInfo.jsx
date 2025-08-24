@@ -234,9 +234,9 @@ const UserInfo = () => {
     );
   }
 
-  const waitlistUrl = `getnivo.tech/selfadd/${user.businessNameForUrl}`;
-  const bookingUrl = `getnivo.tech/book/${user.businessNameForUrl}`;
-  const viewWaitlistUrl = `getnivo.tech/view-waitlist/${user._id}`;
+  const waitlistUrl = `https://nivosoftware.netlify.app/selfadd/${user.businessNameForUrl}`;
+  const bookingUrl = `https://nivosoftware.netlify.app/book/${user.businessNameForUrl}`;
+  const viewWaitlistUrl = `https://nivosoftware.netlify.app/view-waitlist/${user._id}`;
 
   return (
     <div className="min-h-screen bg-gray-100 p-4">
